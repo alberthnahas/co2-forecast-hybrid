@@ -1,10 +1,10 @@
-## CO2 Forecast Hybrid
+## CO₂ Forecast Hybrid
 
 *A Machine Learning and Time Series Approach to Ground-Level CO₂ Forecasting*
 
 ### 🌍 Overview
 
-**CO2 Forecast Hybrid** is a predictive modeling project that estimates future monthly average ground-level CO₂ concentrations (in ppm) using a **hybrid approach** combining machine learning and time series analysis. This project is motivated by the increasing need to forecast atmospheric CO₂ for environmental planning and climate policy support.
+**CO₂ Forecast Hybrid** is a predictive modeling project that estimates future monthly average ground-level CO₂ concentrations (in ppm) using a **hybrid approach** combining machine learning and time series analysis. This project is motivated by the increasing need to forecast atmospheric CO₂ for environmental planning and climate policy support.
 
 The model utilizes:
 - **Random Forest** (Supervised Machine Learning)
@@ -120,6 +120,6 @@ For feedback, questions, or collaboration inquiries, please contact:
 
 If you use this model or repository, please cite:
 
-> “Hybrid Model for CO2 Forecast” by [Alberth Nahas], 2025.  
+> “Hybrid Model for CO₂ Forecast” by [Alberth Nahas], 2025.  
 > A hybrid ML and time series framework for forecasting atmospheric CO₂.
 
