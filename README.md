@@ -120,6 +120,6 @@ For feedback, questions, or collaboration inquiries, please contact:
 
 If you use this model or repository, please cite:
 
-> “Hybrid Model for CO₂ Forecast” by [Alberth Nahas], 2025.  
+> “Hybrid Model for CO₂ Forecast” by Alberth Nahas, 2025.  
 > A hybrid ML and time series framework for forecasting atmospheric CO₂.
 
