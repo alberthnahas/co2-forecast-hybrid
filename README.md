@@ -1,8 +1,8 @@
-# CO2 Forecast Hybrid
+## CO2 Forecast Hybrid
 
 *A Machine Learning and Time Series Approach to Ground-Level CO₂ Forecasting*
 
-## 🌍 Overview
+### 🌍 Overview
 
 **CO2 Forecast Hybrid** is a predictive modeling project that estimates future monthly average ground-level CO₂ concentrations (in ppm) using a **hybrid approach** combining machine learning and time series analysis. This project is motivated by the increasing need to forecast atmospheric CO₂ for environmental planning and climate policy support.
 
@@ -11,7 +11,7 @@ The model utilizes:
 - **SARIMA** (Seasonal Autoregressive Integrated Moving Average, a statistical time series model)
 
 These methods are integrated to leverage both the non-linear relationships in environmental data and the temporal dependencies in CO₂ trends.  
-## 🎯 Objective
+### 🎯 Objective
 
 To build an intelligent system that can:
 - Learn patterns from historical CO₂, meteorological, and atmospheric data
@@ -19,7 +19,7 @@ To build an intelligent system that can:
 - Adapt to non-linear, multivariate, and seasonally varying signals
 
 
-## 🧠 Modeling Approach
+### 🧠 Modeling Approach
 
 | Component       | Method        | Field             |
 |----------------|---------------|-------------------|
@@ -28,7 +28,7 @@ To build an intelligent system that can:
 | Combined Model | RF + SARIMA   | Hybrid Approach   |
 
 
-## 🔁 Workflow
+### 🔁 Workflow
 
 ```text
 Start
@@ -42,7 +42,7 @@ End
 ```
 
 
-## 📥 Input Parameters
+### 📥 Input Parameters
 
 | Parameter   | Description                          | Role    | Source   |
 |-------------|--------------------------------------|---------|----------|
@@ -57,7 +57,7 @@ End
 
 
 
-## 📊 Why a Hybrid Model?
+### 📊 Why a Hybrid Model?
 
 | Limitation of SARIMA                          | How RF Helps                                   |
 |-----------------------------------------------|-------------------------------------------------|
@@ -74,7 +74,7 @@ End
 
 
 
-## 🔍 Feature Importance and Contribution
+### 🔍 Feature Importance and Contribution
 
 Each feature contributes uniquely to the CO₂ variability at the Bukit Kototabang (BKT) site:
 
@@ -87,7 +87,7 @@ Each feature contributes uniquely to the CO₂ variability at the Bukit Kototaba
 
 
 
-## 📁 Repository Contents
+### 📁 Repository Contents
 
 
 ```text
@@ -100,7 +100,7 @@ CO2-Forecast-Hybrid/
 
 
 
-## 📌 Notes
+### 📌 Notes
 
 - All models are trained using open-source data.
 - The model is designed to be extended with additional atmospheric predictors.
@@ -109,17 +109,17 @@ CO2-Forecast-Hybrid/
 
 
 
-## 📬 Contact
+### 📬 Contact
 
 For feedback, questions, or collaboration inquiries, please contact:  
 📧 [alberth.nahas@bmkg.go.id]
 
 
 
-## 📢 Citation
+### 📢 Citation
 
 If you use this model or repository, please cite:
 
-> “Hybrid_Model_for_CO2_Forecast” by [Alberth Nahas], 2025.  
-> A hybrid ML and time series framework for forecasting atmospheric CO₂ at Bukit Kototabang.
+> “Hybrid Model for CO2 Forecast” by [Alberth Nahas], 2025.  
+> A hybrid ML and time series framework for forecasting atmospheric CO₂.
 
