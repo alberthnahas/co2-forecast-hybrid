@@ -101,8 +101,6 @@ Each feature contributes uniquely to the CO₂ variability at the Bukit Kototaba
 CO2-Forecast-Hybrid/
 ├── data/        → Raw and processed input datasets
 ├── notebooks/   → Jupyter notebooks for training, analysis, and plotting
-├── models/      → Trained model files and checkpoints
-├── output/      → Forecast results and figures
 ├── scripts/     → Main scripts for RF and SARIMA execution
 └── README.md    → Project overview
 ```
