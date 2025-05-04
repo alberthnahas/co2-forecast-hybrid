@@ -10,10 +10,7 @@ The model utilizes:
 - **Random Forest** (Supervised Machine Learning)
 - **SARIMA** (Seasonal Autoregressive Integrated Moving Average, a statistical time series model)
 
-These methods are integrated to leverage both the non-linear relationships in environmental data and the temporal dependencies in CO₂ trends.
-
----
-
+These methods are integrated to leverage both the non-linear relationships in environmental data and the temporal dependencies in CO₂ trends.  
 ## 🎯 Objective
 
 To build an intelligent system that can:
@@ -21,7 +18,6 @@ To build an intelligent system that can:
 - Forecast future CO₂ concentrations with improved accuracy
 - Adapt to non-linear, multivariate, and seasonally varying signals
 
----
 
 ## 🧠 Modeling Approach
 
@@ -31,7 +27,6 @@ To build an intelligent system that can:
 | SARIMA         | Parametric    | Time Series Stats |
 | Combined Model | RF + SARIMA   | Hybrid Approach   |
 
----
 
 ## 🔁 Workflow
 
@@ -47,8 +42,6 @@ End
 ```
 
 
----
-
 ## 📥 Input Parameters
 
 | Parameter   | Description                          | Role    | Source   |
@@ -62,7 +55,7 @@ End
 | `t2m`       | Temperature at 2m                    | Feature | ECMWF    |
 | `mslp`      | Mean sea level pressure              | Feature | ECMWF    |
 
----
+
 
 ## 📊 Why a Hybrid Model?
 
@@ -79,7 +72,7 @@ End
 | No forecasting horizon                        | Projects into the future                       |
 | Ignores autocorrelation                       | Models serial dependence in time               |
 
----
+
 
 ## 🔍 Feature Importance and Contribution
 
@@ -92,7 +85,7 @@ Each feature contributes uniquely to the CO₂ variability at the Bukit Kototaba
 - **mslp**: Encodes atmospheric stability and seasonal pressure patterns
 - **tcco_1e4**: Traces combustion-related events (e.g., biomass burning)
 
----
+
 
 ## 📁 Repository Contents
 
@@ -105,7 +98,7 @@ CO2-Forecast-Hybrid/
 └── README.md    → Project overview
 ```
 
----
+
 
 ## 📌 Notes
 
@@ -113,7 +106,7 @@ CO2-Forecast-Hybrid/
 - The model is designed to be extended with additional atmospheric predictors.
 - Optional seasonal decomposition is available to analyze periodic patterns.
 
----
+
 
 
 ## 📬 Contact
@@ -121,7 +114,7 @@ CO2-Forecast-Hybrid/
 For feedback, questions, or collaboration inquiries, please contact:  
 📧 [alberth.nahas@bmkg.go.id]
 
----
+
 
 ## 📢 Citation
 
